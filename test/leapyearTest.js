@@ -81,6 +81,10 @@ describe("\nAcceptance Criteria Testing\n", function () {
         let result = leapYear.isLeapYear(1997);
         assert.equal(result, false);
       });
+      it("Should return false for year 1945 as it is not divisable by 4", function () {
+        let result = leapYear.isLeapYear(1945);
+        assert.equal(result, false);
+      });
     });
 
     describe("It is divisible by 100, but not 400", () => {
