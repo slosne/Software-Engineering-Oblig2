@@ -2,15 +2,6 @@ const assert = require("chai").assert;
 const { expect } = require("chai");
 const leapYear = require("../leapyear");
 
-describe("Default failed test to start with", function () {
-  it("This test should always return failed as default.", function () {
-    leapYear.failedTest();
-    expect.fail(
-      "This test is made to fail by purpose to have a starting point"
-    );
-  });
-});
-
 describe("\nTesting seperate calculations\n", function () {
   describe("Is given number divisable by 4", function () {
     it("20 is divisable by 4 and should return true", function () {
