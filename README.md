@@ -8,7 +8,5 @@ riktignok selvfølgelig modifiseres i yml-fila senere, dersom jeg f.eks ønsker 
 Per nå utfører den en npm ci, som er en automatiseringsversjon av npm install, og som da installerer nødvendige avhengigheter. I tillegg gjør den npm build dersom det
 er spesifisert, men det er det ikke i dette tilfellet, så kommandoen blir her ignorert. Deretter kjører den alle testene. Dette utføres når man pusher en commit til GitHub.
 
-Ved push kjører den nå gjennpm alt, og alle prosesser sjekkes av og lyser grønt til og med tester. 
-
-
+Ved push kjører den nå gjennom alt i 3 ulike node-versjoner, og alle prosesser sjekkes av og lyser grønt til og med tester. 
 
