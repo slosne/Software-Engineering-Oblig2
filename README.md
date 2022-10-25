@@ -9,3 +9,4 @@ Per nå utfører den en npm ci, som er en modifisert npm install som er tilpasse
 
 Ved push kjører den nå gjennom alt i 3 ulike node-versjoner, og alle prosesser sjekkes av og lyser grønt til og med tester. Dersom en test feiler vil workflowen avbrytes som en helhet. 
 
+Mine første to workflows ble f.eks. avbrutt fordi jeg hadde med en feilende test som default, slik at jeg kunne se hvordan det så ut om det ikke gikk gjennom.
